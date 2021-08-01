@@ -2,6 +2,8 @@
 
 These notes describe the graphql query and calculation logic of the anchor webapp as jupyter notebook.
 
+> ⚠️ This project will be updated gradually whenever I have time. If there is anything you want to update first, please write it in Issue.
+
 ## Common
 
 - [Token balances](./balance.ipynb)
@@ -14,7 +16,7 @@ These notes describe the graphql query and calculation logic of the anchor webap
 
 ## Borrow
 
-- TODO: Main screen logics
+- [Main screen logics](./borrow.ipynb)
 - TODO: Provide collateral popup logics
 - TODO: Withdraw collateral popup logics
 - TODO: Borrow popup logics
