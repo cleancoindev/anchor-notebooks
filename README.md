@@ -2,6 +2,10 @@
 
 These notes describe the graphql query and calculation logic of the anchor webapp as jupyter notebook.
 
+## Common
+
+- [Token balances](./balance.ipynb)
+
 ## Earn
 
 - [Main screen logics](./earn.ipynb)
