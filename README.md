@@ -50,7 +50,7 @@ These notes describe the graphql query and calculation logic of the anchor webap
 
 # Implementation in JavaScript
 
-There is the `@terra-dev/mantle` with the same API as `mantle()` function in the Jupiter notebook. 
+There is the `@terra-dev/mantle` with the same API as `mantle()` function in the Jupyter notebook. 
 
 Note that if you would like to use the query in notebook the same in JS.
 
