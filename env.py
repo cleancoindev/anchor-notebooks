@@ -25,3 +25,5 @@ cw20_aust_addr = "terra1ajt556dpzvjwl0kl5tzku3fc3p3knkg9mkv8jl"
 cw20_anc_addr = "terra1747mad58h0w4y589y3sk84r5efqdev9q4r02pc"
 lp_anc_ust_addr = "terra1vg0qyq92ky9z9dp0j9fv5rmr2s80sg605dah6f"
 lp_bluna_luna_addr = "terra1tj4pavqjqjfm0wh73sh7yy9m4uq3m2cpmgva6n"
+
+blocks_per_year = 4656810.0
