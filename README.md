@@ -1,4 +1,4 @@
-# Jupyter notebooks explaining anchor logics
+# Jupyter notebooks explaining anchor queries / logics
 
 These notes describe the graphql query and calculation logic of the anchor webapp as jupyter notebook.
 
@@ -47,6 +47,43 @@ These notes describe the graphql query and calculation logic of the anchor webap
 ## My Page
 
 - [Transaction History](./mypage_transaction_history.ipynb)
+
+# Implementation in JavaScript
+
+There is the `@terra-dev/mantle` with the same API as `mantle()` function in the Jupiter notebook. 
+
+Note that if you would like to use the query in notebook the same in JS.
+
+```js
+import { mantle } from '@terra-dev/mantle'
+
+const { marketState, govState } = await mantle({
+  variables: {},
+  mantleEndpoint: "https://tequila-mantle.anchorprotocol.com",
+  wasmQuery: {
+    marketState: {
+      contractAddress: "terra15dwd5mj8v59wpj0wvt233mf5efdff808c5tkal", // moneyMarket.market
+      query: {
+        state: {}
+      }
+    },
+    govState: {
+      contractAddress: "terra16ckeuu7c6ggu52a8se005mg5c0kd2kmuun63cu", // gov
+      query: {
+        state: {}
+      }
+    }
+  }
+})
+```
+
+## Examples
+
+- [JavaScript Basic Example](https://codesandbox.io/s/mantle-js-example-rs9xm)
+- [TypeScript Basic Example](https://codesandbox.io/s/mantle-ts-example-hx59w)
+- [With GraphQL Example](https://codesandbox.io/s/mantle-ts-graphql-example-eboln)
+- [Use in Node.js (Koa Web Server Example)](https://codesandbox.io/s/mantle-nodejs-example-ed8c5)
+
 
 # License
 
