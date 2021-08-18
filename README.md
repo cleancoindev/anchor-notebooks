@@ -46,6 +46,7 @@ These notes describe the graphql query and calculation logic of the anchor webap
 
 ## My Page
 
+- [Total Value](./mypage_total_value.ipynb)
 - [Transaction History](./mypage_transaction_history.ipynb)
 
 # Implementation in JavaScript
